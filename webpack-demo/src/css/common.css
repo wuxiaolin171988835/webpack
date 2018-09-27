@@ -1,0 +1,12 @@
+@import './flex.css';
+/**import的css文件并没有添加前缀，所以需要添加参数importLoaders=1**/
+html,body{
+  padding: 0;
+  margin: 0;
+  background-color: red;
+}
+ul,li{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}

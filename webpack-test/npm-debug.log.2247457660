@@ -1,0 +1,47 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'webpack-cli',
+1 verbose cli   '-g' ]
+2 info using npm@3.10.10
+3 info using node@v8.11.3
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 silly fetchPackageMetaData webpack-cli
+8 silly fetchNamedPackageData webpack-cli
+9 silly mapToRegistry name webpack-cli
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'webpack-cli',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: 'webpack-cli',
+12 silly mapToRegistry   name: 'webpack-cli',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npmjs.org/webpack-cli
+14 verbose request uri https://registry.npmjs.org/webpack-cli
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 17:22:09
+17 verbose request id 4f3e2d21a3eeb067
+18 verbose etag W/"0b8c11fdbeb70a8dec3bc1180d5f4770"
+19 verbose lastModified Wed, 18 Jul 2018 14:57:38 GMT
+20 http request GET https://registry.npmjs.org/webpack-cli
+21 verbose stack Error: write EIO
+21 verbose stack     at _errnoException (util.js:992:11)
+21 verbose stack     at WriteWrap.afterWrite [as oncomplete] (net.js:864:14)
+22 verbose cwd /Users/wuxiaolin/Documents/wxl_project/webpack-test
+23 error Darwin 17.7.0
+24 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "webpack-cli" "-g"
+25 error node v8.11.3
+26 error npm  v3.10.10
+27 error code EIO
+28 error errno EIO
+29 error syscall write
+30 error write EIO
+31 error If you need help, you may report this error at:
+31 error     <https://github.com/npm/npm/issues>
+32 verbose exit [ 1, true ]
